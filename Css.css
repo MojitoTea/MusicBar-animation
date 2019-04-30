@@ -1,0 +1,87 @@
+div{
+    background-color:red;
+    width:30px;
+    height:60px;
+    animation-iteration-count:infinite;
+    animation-iteration-function:linear;
+    position:fixed;
+    box-shadow:2px 2px 5px grey;
+}
+div.bar1{
+    background-color:red;
+    animation:ex1 1.9s linear infinite ;
+    top:200px ;
+    left:60px ;
+}
+div.bar2{
+    background-color:orange;
+    animation:ex2 2.1s linear infinite;
+    top:200px ;
+    left:95px ;
+}
+div.bar3{
+    background-color:yellow;
+    animation:ex3 2.3s linear infinite;
+    top:200px ;
+    left:130px ;
+}
+div.bar4{
+    background-color:limegreen;
+    animation:ex4 1.4s linear infinite;
+    top: 200px;
+    left: 165px ;
+}
+div.bar5{
+    background-color:skyblue;
+    animation:ex5 1.7s linear infinite ;
+    top: 200px;
+    left:200px ;
+}
+div.bar6{
+    background-color:blue;
+    animation:ex6 2.0s linear infinite;
+    top: 200px;
+    left:235px ;
+}
+div.bar7{
+    background-color:purple;
+    animation:ex7 1.8s linear infinite;
+    top:200px ;
+    left: 270px;
+}
+@keyframes ex1{
+    50%{ background-color:purple; top:100px; height:160px;}
+}
+@keyframes ex2{
+    50%{background-color:blue;top:50px;height:210px;}
+}
+@keyframes ex3{
+    50%{background-color:skyblue; top:10px; height:250px;}
+}
+@keyframes ex4{
+    50%{background-color:green; top:100px; height:160px;}
+}
+@keyframes ex5{
+    50%{background-color:yellow; top:50px; height:210px;}
+}
+@keyframes ex6{
+    50%{background-color:orange; top:150px; height:110px;}
+}
+@keyframes ex7{
+    50%{background-color:red; top:50px; height:210px;}
+}
+span#id1{
+    top:300px;
+    position:relative ;
+    font-family:cooper;
+    font-size:20px;
+    text-shadow:5px 5px 5px grey;
+}
+span#id2{
+    top:320px;
+    position:relative ;
+    font-family:cooper;
+    font-size:15px;
+    text-shadow:5px 5px 5px grey;
+}
+
